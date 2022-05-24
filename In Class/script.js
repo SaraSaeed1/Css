@@ -5,9 +5,10 @@ let newItem;
 
 function push(arr,newItem ){
         arr[arr.length]=newItem;
-        return a;
+        return arr;
     }
 
     console.log(push(arr1,"d"));
     console.log(push(arr2,"a"));
 
+    
