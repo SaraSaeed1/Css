@@ -12,7 +12,7 @@
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     align-items: center;
-    padding: 0% 10%;
+    padding: 0% 19%;
     height: auto;
     font-weight: bold;
 }
@@ -62,12 +62,11 @@
 /* main */
 
 .main{
-
     display: flex;
     align-items: center;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     flex-direction: row;
-    margin: 0% 10%;
+    margin: 0% 19%;
     height: auto;
     justify-content: space-between;
 
@@ -91,7 +90,7 @@
 /* information  */
 
 
-.card ,.education {
+.card ,.education  {
     display: flex;
     flex-direction: column;
     background-color: gray;
@@ -120,6 +119,7 @@
     height: 0%;
     background-color: black;
     display: flex;
+    padding-left: 4%;
 }
 
 .black  p {
@@ -205,25 +205,81 @@ p{
 /* connections */
 
 .requests{
+    margin: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    font-family: 'Roboto', sans-serif;
 }
 
-#button-add{
+
+#HowMany{
+    text-align: center;
     background-color: #bdbdbd;
     color: #fff;
     border-radius: 50%;
     border: none;
     margin: 0% 2%;
+    width: 10%;
+}
+
+#num{
+    text-align: center;
+    background-color: #bdbdbd;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    margin: 0% 2%;
+    width: 23%;
 }
 
 .new-friend{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding: 2%;
 }
-img .new-friend{
-    margin: -13px 0px 0px 7px;
+.new-friend img{
+    padding: 3px;
+    height: 28px;
+    border-radius: 50%;
+    align-items: center;
+}
+.button{
     padding: 2px;
-    height: 50px;
+    height: 1%;
+    border-radius:20% ;
+    border: none;
+}
+
+.name-friend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-requests{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.info-requests{
+    display: flex;
+    flex-direction: column;
+}
+
+.friend{
+    margin: 2% 0%;
+    margin: 2% 0%;
+    display: flex;
+    flex-direction: column;
     border: 2px solid gray;
-    border-radius:50% ;
-    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.view-more{
+    border-top:solid black;
+    padding: 2% 4%;
 }
