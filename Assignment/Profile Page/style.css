@@ -1,0 +1,165 @@
+*{
+    border: 1px solid red;
+}
+
+body{
+    margin: auto;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: 0% 20%;
+    height: auto;
+    font-weight: bold;
+}
+
+.nav-links{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.nav-title{
+    color: white;
+    font-weight: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 46%;
+}
+
+.btn{
+    color: white;
+    background-color:deepskyblue;
+    font: bolder;
+    border: 2px solid rgb(0, 0, 0); /* Green */
+    height:30px;
+    width: 75px;
+    box-shadow: 4px 4px black;
+
+}
+
+a {
+    color: rgb(182, 179, 179);
+    text-decoration: none ;
+    font-weight: bold;
+}
+
+.active{
+    color: white;
+}
+
+/* main */
+
+.main{
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    flex-direction: row;
+    margin: 0% 20%;
+    height: auto;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+/* information  */
+
+.card{
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    border: 2px solid gray;
+    margin: 30px auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.blue{
+    margin:  -2px -2px 0px -2px ;
+    height: 35px;
+    width: auto;
+    background-color:cornflowerblue;
+    align-items:center;
+    vertical-align: top;
+    padding: 2%;
+
+}
+
+#iconuser{
+    margin: -13px 0px 0px 7px;
+    padding: 2px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius:50% ;
+    background-color: white;
+
+
+}
+
+.name{
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:2% 0% 0% 3%;
+}
+
+h1{
+    margin-bottom: 1%;
+}
+
+.location{
+    display: flex;
+    margin: 1% 0% ;
+    padding-left: 3%;
+}
+
+h5{
+    margin: 0;
+    margin-left: 12px;
+}
+#img{
+    height: 15px;
+}
+.info{
+    padding-left: 3%;
+    margin: 2% 0%
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    padding:1% 0% 3% 3%;
+}
+
+p{
+    margin: 0%;
+    font-size: small;
+}
+
+a{
+    padding-left: 2%;
+    font-size: small;
+}
